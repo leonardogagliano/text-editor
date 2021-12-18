@@ -1,3 +1,3 @@
 # Rich-Text-Editor
 
-Editor Rich Text de Leonardo Gagliano.
+Rich Text Editor by Leonardo Gagliano.
