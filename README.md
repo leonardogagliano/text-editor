@@ -1,2 +1,2 @@
 # projects
-These are some of my projects.
+A Rich Text Editor.
