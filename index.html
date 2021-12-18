@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  
+  <head>
+    <title>Rich Text Editor by Leonardo Gagliano</title>
+    
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+        }
+      
+      body{
+        margin:0;
+        padding:0;
+        height:100vh;
+        background-image: linear-gradient(to bottom right, lightgreen, #999);
+        backgroun-position: center;
+        background-origin: unset;
+        background-repeat: no-repeat;
+        
+      }
+      
+      .container {
+        width: 650px;
+        margin: 0 auto:
+      }
+      
+      h1 {
+        font family: Arial;
+        text-align: center;
+        padding: 20px 0;
+        color: dimgray;
+        }
+      
+      .actions {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+      #save {
+        background-color: #fff;
+        padding: 10px 20px;
+        border: 1px solid #999;
+        font-size: 2em;
+      }
+      
+    </style>
+    
+  </head>
+  
+  <body>
+    
+    <div class="container">
+      <h1>Rich Text Editor by Leonardo Gagliano</h1>
+      <textarea name="editor" id="editor" cols="30" rows="10">text</textarea>
+    </div>
+    
+    <div class="actions">
+      <button onclick="editor.save();" id="save">Save</button>
+    </div>
+    
+    </body>
+</html>      
