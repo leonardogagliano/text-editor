@@ -1,0 +1,20 @@
+h1 {
+font-family : arial;
+text-align : center;
+
+}
+
+.text-box {
+text-align : center;
+}
+
+.save-button {
+text-align : center;
+height : 100;
+}
+
+#button {
+height : 50px;
+width : 100px;
+text-size : 100px;
+}
