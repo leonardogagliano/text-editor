@@ -1,44 +1,38 @@
-<!DOCTYPE html>
-
-<html lang="pt-BR">
-
-
+<DOCTYPE! html>
+<html>
 <head>
-    
-<title>Text Editor</title>
-    
-<link rel="stylesheet" href="style.css">
+
+
+<script src="script.js"></script>
+
+<style>
+.title{
+text-align : center;
+}
+
+.text-box{
+text-align : center;
+}
+.saveButton{
+text-align : center;
+}
+</style>
+
 </head>
-  
-  
 
 <body>
-    
-    
+
+
+<h1 class="title">Text editor</h1>
 
 <div class="text-box">
-      
-<h1>Text Editor</h1>
-      
-<textarea cols="60" rows="20">Type the text here...</textarea>
-    
+<textarea cols='30' rows='10'>Text</textarea>
 </div>
-      
 
-<div class="save-button">
-<button id="button" onclick="editor.save();">Save</button>
-  
+<div class="saveButton">
+<button>">Save</button>
+</div>
 
-</div>    
-   
-
-<script src="editor.js"></script>
-    
-    <script>
-      var editor = new CDEditor('#editor');
-    </script>
-            
-    
 </body>
 
-</html>      
+</html>
