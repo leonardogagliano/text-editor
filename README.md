@@ -1,1 +1,3 @@
 # Text Editor
+
+> Status: Developing 👩‍💻 
