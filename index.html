@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>A rich text editor</title>
+<link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+<iframe id="editor" name="editor" contenteditableon="true" src="about:blank"></iframe>
+<hr>
+<button id="bold" onclick="bold()">Negrito</button>
+<script>
+editor.document.designMode="on";
+var bold = function(){
+	editor.document.execCommand("bold", false, null);
+	}
+	
+
+</script>
+
+</body>
+
+</html>
